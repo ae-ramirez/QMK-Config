@@ -9,14 +9,10 @@ VPATH += /home/al/qmk_firmware/keyboards/gboards/
 
 # Build Options
 #   change yes to no to disable
-#
 
-######## CUSTOM ##############
 COMBO_ENABLE = yes          # Enable chord-like combinations
 # KEY_OVERRIDE_ENABLE = yes   # Enable overriding mod-key combinations
 # TAP_DANCE_ENABLE = yes
-
-######## DEFAULT #############
 BOOTMAGIC_ENABLE = yes      # Enable Bootmagic Lite
 MOUSEKEY_ENABLE = yes       # Mouse keys
 EXTRAKEY_ENABLE = yes       # Audio control and System control
