@@ -71,11 +71,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                                               TG(MOUSE),  KC_TRNS,        KC_TRNS,  KC_TRNS),
   [EXTEND] = LAYOUT(
   //---------------------------------------------------------------       -------------------------------------------------------------------------
-    KC_ESC,  LALT(KC_LEFT),  LALT(KC_RGHT),  KC_CAPS,  KC_INS,                 KC_PGUP,  KC_HOME,  KC_UP,  KC_END,  KC_ESC,
+    KC_ESC,  LALT(KC_LEFT),  LALT(KC_RGHT),  OSM(MOD_HYPR),  KC_INS,           KC_PGUP,  KC_HOME,  KC_UP,  KC_END,  KC_ESC,
   //---------------------------------------------------------------       -------------------------------------------------------------------------
     KC_TAB,  OSM(MOD_LGUI),  OSM(MOD_LALT),  KC_ENT,  TG(EXTEND),              KC_PGDN,  KC_LEFT,  KC_DOWN,  KC_RGHT,  KC_DEL,
   //---------------------------------------------------------------       -------------------------------------------------------------------------
-    LCTL(KC_Z),  LCTL(KC_X),  LCTL(KC_C),  LCTL(KC_V),  OSM(MOD_HYPR),         OSL(FUNCTION),  KC_BSPC,  OSM(MOD_RSFT),  OSM(MOD_RCTL),  KC_APP,
+    LCTL(KC_Z),  LCTL(KC_X),  LCTL(KC_C),  KC_CAPS,  LCTL(KC_V),               OSL(FUNCTION),  KC_BSPC,  OSM(MOD_RSFT),  OSM(MOD_RCTL),  KC_APP,
   //---------------------------------------------------------------       -------------------------------------------------------------------------
                                             KC_TRNS,  KC_TRNS,            KC_TRNS,  KC_TRNS),
   [FUNCTION] = LAYOUT(
